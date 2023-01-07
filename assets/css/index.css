@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#login {
+    position: absolute;
+    top: 550px;
+    /* center the button vertically */
+    left: 50%;
+    /* center the button horizontally */
+    transform: translate(-50%, -50%);
+    /* offset the button by half of its width and height */
+    width: 290px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* make the button semi-transparent */
+    opacity: 0;
+}
+
+#register {
+    position: absolute;
+    top: 670px;
+    /* center the button vertically */
+    left: 50%;
+    /* center the button horizontally */
+    transform: translate(-50%, -50%);
+    /* offset the button by half of its width and height */
+    width: 200px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* make the button semi-transparent */
+    opacity: 0;
+}
+
+#my-image {
+    height: 100vh;
+    /* 100% of the viewport height */
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    /* center the image horizontally */
+}
